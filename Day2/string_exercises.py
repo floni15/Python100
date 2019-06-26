@@ -12,4 +12,4 @@ print(f"Witaj, {Imie}     {Nazwisko}")
 print(90 - 180)
 print(abs(90 - 180))
 
-# komentarz
+# dodalem komentarz
