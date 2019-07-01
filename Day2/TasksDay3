@@ -1,0 +1,46 @@
+# repeatHowManyTimes = int(input("Please tell me how many times to repeat..."))
+#
+# for index in range(repeatHowManyTimes):
+#     #print(index)
+#    print("Hello, it's me")
+
+months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+for month in list(months):
+print(month)
+
+# 1 ZADANIE
+# text = "Python is a fantastic snake"
+# how_many_characters = len(text)
+# list_of_indexes = range(0,how_many_characters,2) #co druga litere
+#
+# for idx in list_of_indexes:
+#    ## print(idx)
+#     print(text[idx])
+#    ## print(text[idx], end="")
+
+# months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+# for index, value in enumerate ():
+# print(f"na indexie {idx}; wartosc; {month}"0")
+
+#1.1 ZADANIE
+L = 'Python is a fantastic snake'
+print(L[::2])
+#1.2 ZADANIE
+L = 'Python is a fantastic snake'
+print(L[::3])
+
+# 2 ZADANIE
+
+text = "Python is a fantastic snake"
+
+world_list = text.split()
+for word in world_list:
+    print(word)
+
+# 3 ZADANIE
+
+text = input("Write a text")
+
+world_list = text.split()
+for word in world_list:
+    print(word)

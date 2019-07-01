@@ -13,3 +13,4 @@ print(90 - 180)
 print(abs(90 - 180))
 
 # dodalem komentarz
+
